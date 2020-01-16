@@ -5,6 +5,6 @@ function setup() {
 
 function draw() {
   // put drawing code here
-fill('#00A6ED')
+fill('#9A48D0')
   rect(mouseX, mouseY, 100, 100) ;
 }

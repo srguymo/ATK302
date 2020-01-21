@@ -1,5 +1,6 @@
 function setup() {
   // put setup code here
+
    createCanvas(720, 400);
 }
 
@@ -7,8 +8,12 @@ function draw() {
   // put drawing code here
   background('#A0CED9');
   noStroke();
-  fill(255);
-  ellipse(200, 144, 72, 72);
+  fill('#FFEE93');
+  ellipse(100, 100, 90, 90);
+  fill('#ADF7B6');
+  rect(0, 350, 750, 63);
+  fill('#77EA85');
+  triangle(18, 18, 18, 360, 81, 360);
 
   // fill(204);
   // triangle(18, 18, 18, 360, 81, 360);
@@ -27,4 +32,7 @@ function draw() {
   //
   // fill(255);
   // arc(479, 300, 280, 280, PI, TWO_PI);
+fill ('#FCF5C7');
+textSize (30) ;
+  text(mouseX + "," + mouseY,50,50) ;
 }

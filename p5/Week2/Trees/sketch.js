@@ -28,8 +28,6 @@ function draw() {
   ellipse(590, 140, 50, 50);
 
 
-
-
   //trees and shit
   fill('#ADF7B6');
   rect(0, 350, 750, 63);

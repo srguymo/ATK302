@@ -109,6 +109,6 @@ rect(0, 340, 6000, 6000);
 
 }
 //just mouse clicks
-function mouseReleased() {
-  console.log(mouseX + ", " +mouseY);
+//function mouseReleased() {
+//  console.log(mouseX + ", " +mouseY);
 }

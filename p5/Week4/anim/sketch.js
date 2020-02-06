@@ -1,3 +1,5 @@
+var x = 0 ;
+
 function setup() {
   // put setup code here
   createCanvas(800,800);
@@ -6,11 +8,20 @@ function setup() {
 
 function draw() {
   //backround('#CEC2FF');
+push();
+translate(x,0);
   bongo();
+pop();
 
+x++;
 
+if (x> width) {
+  x= -300 ;
+}
 
 }
+
+
 
 function bongo(){
   fill('#F9D4F0');

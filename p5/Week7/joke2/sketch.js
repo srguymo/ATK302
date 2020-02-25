@@ -10,6 +10,7 @@ function draw() {
 background ('#F8FF94') ;
 switch (myState) {
   case 0:
+  textSize(20);
   text (" How do you make a lemon drop? ", 100,100) ;
 timer++;
 if (timer > 200){
@@ -19,6 +20,7 @@ if (timer > 200){
     break;
 
   case 1:
+  textSize (20);
   text ("Just let it fall.",300,300) ;
   timer++;
   if (timer > 200){

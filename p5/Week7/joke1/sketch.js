@@ -12,10 +12,12 @@ function draw() {
 background ('#C9FFFB') ;
 switch (myState) {
   case 0:
+textSize(20);
   text ("What do you get when you cross a vampire and a snowman?", 100,100) ;
     break;
 
   case 1:
+  textSize(20);
   text ("Frost bite!",100,100) ;
     break;
 

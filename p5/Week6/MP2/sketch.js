@@ -17,7 +17,7 @@ let x = 520;
 let y = 480;
 let xspeed = 10;
 let yspeed = 4;
-let r = 25;
+let r = 150;
 
 function setup() {
 

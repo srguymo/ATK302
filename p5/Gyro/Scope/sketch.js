@@ -50,7 +50,7 @@ function draw() {
   textAlign(LEFT);
   textSize(20);
   fill('#2e3192');
-  text("Pompom purin just got done with his bath",25,25);
+  text("Pompompurin just got done with his bath",25,25);
   text("shake your phone to dry him off!!",25,50);
   //text("orientation data:", 25, 25);
   //textSize(15);
